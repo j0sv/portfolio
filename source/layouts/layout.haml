@@ -27,5 +27,19 @@
 
         });
   %body
+    .navbar-fixed
+      %nav.amber.accent-4
+        .nav-wrapper
+          %a.brand-logo{:href => "#!"} &nbsp; Jonas Svensson
+          %ul.right.hide-on-med-and-down
+            %li
+              %a{:href => "test.html"} About Jonas
+            %li
+              %a{:href => "badges.html"} Experience
+            %li
+              %a{:href => "badges.html"} Projects
+            %li
+              %a{:href => "badges.html"} Contact
+
     .container
       = yield

@@ -1,14 +1,24 @@
 - name: BMI calculator
   description: Project to create a JavaScript based website for the game FizzBuzz.
   image: bmi.jpg
-  url: www.idg.se
+  url: https://j0sv.github.io/bmi_challenge/
 
 - name: FizzBuzz
   description: Project to create a JavaScript based website for the game FizzBuzz.
   image: fb.png
-  url: www.aftonbladet.se
+  url: https://j0sv.github.io/fizz_buzz_js
 
 - name: Slow Food
   description: Project to create a JavaScript based website for the game FizzBuzz.
   image: slow_food.png
-  url: www.aftonbladet.se
+  url: https://slowfood-craftacademy-july2017.herokuapp.com/
+
+- name: Library challenge
+  description: Project to create a JavaScript based website for the game FizzBuzz.
+  image: lib.png
+  url: https://slowfood-craftacademy-july2017.herokuapp.com/
+
+- name: Portfolio
+  description: Project to create a JavaScript based website for the game FizzBuzz.
+  image: portfolio.png
+  url: https://j0sv.herokuapp.com/
