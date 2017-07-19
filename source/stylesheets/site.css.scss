@@ -1,0 +1,36 @@
+body {
+  background-color: #fbc547;
+  color: #333;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.fix2 {
+  width: 360px;
+  margin: 10px;
+  float: left;
+}
+
+.project-container {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.devicon {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+.devicon-box {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

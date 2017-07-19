@@ -1,0 +1,14 @@
+- name: BMI calculator
+  description: Project to create a JavaScript based website for the game FizzBuzz.
+  image: bmi.jpg
+  url: www.idg.se
+
+- name: FizzBuzz
+  description: Project to create a JavaScript based website for the game FizzBuzz.
+  image: fb.png
+  url: www.aftonbladet.se
+
+- name: Slow Food
+  description: Project to create a JavaScript based website for the game FizzBuzz.
+  image: slow_food.png
+  url: www.aftonbladet.se

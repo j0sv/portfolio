@@ -1,0 +1,81 @@
+%h1 j0sv projects
+.projects.row
+  - data.projects.each do |project|
+    .project-container.col.s12.m6.xl4
+      .card.sticky-action.fix
+        .card-image.waves-effect.waves-block.waves-light
+          %img.activator{:src => "images/#{project[:image]}"}/
+        .card-content
+          %span.card-title.activator.grey-text.text-darken-4
+            #{project[:name]}
+            %i.material-icons.right more_vert
+          %p #{project[:description]}
+          .row
+            .col.s3.devicon-box
+              %i.devicon-html5-plain-wordmark.devicon
+            .col.s3.devicon-box
+              %i.devicon-css3-plain-wordmark.devicon
+            .col.s3.devicon-box
+              %i.devicon-javascript-plain.devicon
+            .col.s3.devicon-box
+              %i.devicon-jquery-plain-wordmark.devicon
+            .col.s3.devicon-box
+              %i.devicon-github-plain-wordmark.devicon
+            .col.s3.devicon-box
+              %i.devicon-atom-original.devicon
+        .card-action
+          %a{:href => "#!"} Read more
+          %a{:href => "#"} Github link #{project[:url]}
+        .card-reveal
+          %span.card-title.grey-text.text-darken-4
+            #{project[:name]}
+            %i.material-icons.right close
+          %p Project to create a JavaScript based website for the game FizzBuzz. Site is based on HTML5, CSS and JavaScript.
+          %p
+            %i.devicon-css3-plain-wordmark.devicon
+            Styling of page made with CSS
+          %p
+            %i.devicon-html5-plain-wordmark.devicon
+            Mark up written in HTML5
+          %p
+            %i.devicon-javascript-plain.devicon
+            Logic written in JavaScript
+          %p
+            %i.devicon-jquery-plain-wordmark.devicon
+            Accesss to DOM using jQuery
+          %p
+            %i.devicon-github-plain-wordmark.devicon
+            Code management and page publication.
+
+
+.row
+  .col.s3.m2.devicon-box
+    %i.devicon-travis-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-slack-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-sass-original.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-postgresql-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-jquery-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-jasmine-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-foundation-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-css3-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-bootstrap-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-atom-original.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-html5-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-ruby-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-github-plain-wordmark.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-javascript-plain.devicon
+  .col.s3.m2.devicon-box
+    %i.devicon-heroku-original-wordmark.devicon
