@@ -1,0 +1,26 @@
+%h1 Experience
+.projects.row
+  - data.projects.each do |project|
+    .project-container.col.s12.m6.xl4
+      .card.sticky-action.hoverable
+        .card-image.waves-effect.waves-block.waves-light
+          %img.activator{:src => "images/#{project[:image]}"}/
+        .card-content
+          %span.card-title.activator.grey-text.text-darken-4
+            #{project[:name]}
+            %i.material-icons.right more_vert
+          %p #{project[:description]}
+          .row
+            - project[:tech].split(',').each do |tech_icon_class|
+              .col.s3.devicon-box
+                %i.devicon{:class => tech_icon_class}
+        .card-action
+          %a{:href => "#{project[:url]}"} Project link
+        .card-reveal
+          %span.card-title.grey-text.text-darken-4
+            #{project[:name]}
+            %i.material-icons.right close
+          %p #{project[:description]}
+          %p
+            %i.devicon-css3-plain-wordmark.devicon
+            Styling of page made with CSS
