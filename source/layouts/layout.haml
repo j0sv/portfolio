@@ -5,7 +5,7 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
-    %title= current_page.data.title || "j0sv porfolio"
+    %title= current_page.data.title || "j0sv portfolio"
     = stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"
     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Inconsolata"
     = stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -68,18 +68,18 @@
     .container
       = yield
 
-%footer.amber.accent-4.page-footer
-  .container
-    .row.valign-wrapper
-      .col.s12
-        %p.grey-text.text-lighten-4
-          %a.footer-link{:href => "mailto:svensson.jonas@gmail.com?Subject=Hello%20again", :target => "_top"} |
-            %i.material-icons.tiny.footer-link email
-            %span.footer-link svensson.jonas@gmail.com&nbsp;|&nbsp;
-          %a.footer-link{:href => "tel:+46-70-1712933"}
-            %i.material-icons.tiny.footer-link smartphone
-            %span.footer-link+46 70-171 29 33&nbsp;|&nbsp;
-
-  .footer-copyright
-    .container
-      © 2017 Copyright Text
+    %footer.amber.accent-4.page-footer
+      .container
+        .row.valign-wrapper
+          .col.s12
+            %p.grey-text.text-lighten-4
+              %a.footer-link{:href => "mailto:svensson.jonas@gmail.com?Subject=Hello%20again", :target => "_top"} |
+                %i.material-icons.tiny.footer-link email
+                %span.footer-link svensson.jonas@gmail.com&nbsp;|&nbsp;
+              %a.footer-link{:href => "tel:+46-70-1712933"}
+                %i.material-icons.tiny.footer-link smartphone
+                %span.footer-link+46 70-171 29 33&nbsp;|&nbsp;
+      .footer-copyright
+        .container
+          © 2017 Copyright Text
+    = partial 'partials/google_analytic'
