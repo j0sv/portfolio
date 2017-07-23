@@ -1,5 +1,75 @@
-- employer: CGI Seriege AB
+- employer: CGI Sverige AB
   title: PABLO, POSTNORD
-  years: 2010-2017
+  years: 2010 - 2017
   objectives: Jonas has worked in the management team for PABLO (Postens Applikation för Brev och LOgistik), which is a point of sale system used at PostNord's all business center and postal agents and is used on more than 2000 service points. PABLO is a distributed client server system based on Oracle and Java.
-  extended:
+  url: https://www.cgi.se/
+  extended: |
+    <ul>
+    <li>Jonas's responsibilities in the management team have been:</li>
+    <li>Incident management</li>
+    <li>Problem management</li>
+    <li>Change and release management</li>
+    <li>Technical testing and verification</li>
+    </ul>
+    <p>Jonas has been incident and problem manager and also working with change and release management.</p>
+    <p>Jonas has handled and solved incoming incidents by analyzing incident descriptions, system data in application logs on client and server, history of user interaction with the system, etc.</p>
+    <p>As a problem manager, Jonas has made trend analyzes of incidents and created problem tickets. Jonas has analyzed the root causes of incidents and verified these against requirements, verifying whether they can be recreated in test environments and created bug reports. Jonas has collaborated with other management teams in analyzing incidents and issues that had an impact on and / or connections to several different systems.</p>
+    <p>Jonas has handled incoming service requests. The service requests could involve extract of data from the system and statistics where he wrote and execute SQL queries against the database and made batch updates and other configuration changes. Jonas has used Excel to customize and format data for loading to the database and for presentation in reports.</p>
+    <p>Jonas has worked with documentation in the form of system usage cases, test cases and installation instructions, conducted tests on further development of the system, contacted help desk and system owner and has worked with preparedness during production critical weekends.</p>
+- employer: CGI Sverige AB
+  title: PRICE AND CONDITIONS, POSTNORD
+  years: 2010 - 2017
+  objectives: Jonas has worked in the management team for PostNord:s price and contition service (PVT) that is as back-end system that provides this information for other PostNord systems.
+  url: https://www.cgi.se/
+  extended: |
+    <ul>
+    <li>Jonas's responsibilities in the management team have been:</li>
+    <li>Incident management</li>
+    <li>Problem management</li>
+    </ul>
+    <p>In the management team, Jonas has received incoming incidents and made an initial analysis of the case of validation of price and service combinations.</p>
+    <p>Jonas has also coordinated the handling of incidents and problems with the relevant developers and ensured the progress of the cases. Jonas has also taken care of change and release management for the system.</p>
+- employer: CGI Sverige AB
+  title: SSD (SERVICESTÄLLDDATABASEN), POSTNORD
+  years: 2010 - 2017
+  objectives: Jonas has worked in the management team for SSD, SERVICESTÄLLDDATABASEN. SSD is PostNord's system to handle information about Service Points in the retail network. System data is exported to other systems within PostNord and to external parties.
+  url: https://www.cgi.se/
+  extended: |
+    <ul>
+    <li>Jonas's responsibilities in the management team have been:</li>
+    <li>Incident management</li>
+    <li>Problem management</li>
+    </ul>
+    <p>Jonas has received incoming incidents and made an analysis of the matter regarding validation of data in export and troubleshooting communication with external systems.</p>
+    <p>Jonas has also coordinated the management of incidents and problems with the relevant developers and ensured the progress of the cases. Jonas has also taken care of change and release management for the system.</p>
+- employer: CGI Sverige AB
+  title: PORTAL PLATFORM, POSTNORD
+  years: 2010 - 2013
+  objectives: Jonas worked in the PostNord Portal Platform Management Team. Portal Platform is based on Sharepoint and used for PostNord's website and web applications.
+  url: https://www.cgi.se/
+  extended: |
+      <ul>
+      <li>Jonas's responsibilities in the management team have been:</li>
+      <li>Incident management</li>
+      </ul>
+      <p>Jonas has coordinated the management of incidents and problems with the relevant developers and ensured the progress of the cases. Jonas also took a course for editors for Sharepoint.</p>
+- employer: PostNord
+  title: SYSTEM MANAGER
+  years: 2007 - 2010
+  objectives: Jonas worked with system administration as incident and problem manager.
+  extended: |
+    <p>Worked with routines and knowledge management for incident handling, problem management and 3rd line support. He had contact with help desk, on location system technicians and hardware supplier. The work also included certain tests work there he has written and executed test cases.</p>
+- employer: ACADEMIC WORK / POSTEN IT
+  title: SUPPORT TECHNOLOGIES / E-SERVICES
+  years: 2004 - 2007
+  objectives: Jonas gave support to Posten's corporate customers.
+  url: http://www.postnord.se/
+  extended: |
+    <p>Jonas gave support for Posten's e-services such as EDI, Web EDI, eBrev, eSkicka, e-Postboxen, Posten Betalväxel and others. The service also included the deployment of new customers as well as file transfer monitoring.</p>
+- employer: ACADEMIC WORK / POSTEN IT
+  title: SUPPORT TECHNOLOGIES
+  years: 2003 - 2004
+  objectives: Jonas worked at Posten Helpdesk and supported the applications and systems used by Posten.
+  url: https://www.academicwork.se/
+  extended: |
+    <p>This was both systems developed by the Post and standard systems such as SAP. ITIL was used as a common way of working and Jonas addressed incoming incidents and service requests in his role as incident handler. During his work, Jonas developed a system in Excel to make the work of monitoring of communication disruptions at Postens service points more effective.</p>

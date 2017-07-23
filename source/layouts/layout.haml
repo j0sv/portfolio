@@ -10,9 +10,9 @@
     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Inconsolata"
     = stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons"
     = stylesheet_link_tag "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-    = stylesheet_link_tag "site"
     = javascript_include_tag "https://code.jquery.com/jquery-3.2.1.min.js"
     = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"
+    = stylesheet_link_tag "site"
     = javascript_include_tag "site"
     :javascript
       $(document).ready(function () {
@@ -26,6 +26,8 @@
           });
 
           $(".button-collapse").sideNav();
+
+          $('.collapsible').collapsible();
 
         });
   %body
@@ -45,13 +47,37 @@
             %a{href: "contact.html"} Contat me
         %ul#mobile.side-nav
           %li
-            %a{href: "/"} About me
+            .user-view
+              .background
+                %img{:src => "images/jonas.jpg"}/
+              %a{:href => "#!user"}
+                %img.circle{:src => "images/jonas.jpg"}/
+              %a{:href => "#!name"}
+                %span.white-text.name Jonas Svensson
+              %a{:href => "#!email"}
+                %span.white-text.email svensson.jonas@gmail.com
           %li
-            %a{href: "projects.html"} Projects
+            %a{:href => "#!"} About me
           %li
-            %a{href: "experience.html"} Experience
+            %a{:href => "#!"} Projects
           %li
-            %a{href: "contact.html"} Contat me
+            %a{:href => "#!"} Experience
+          %li
+            %a{:href => "#!"} Contact me
 
     .container
       = yield
+
+%footer.amber.accent-4.page-footer
+  .container
+    .row.valign-wrapper
+      .col.s12
+        %p.grey-text.text-lighten-4
+          %a.footer-link{:href => "mailto:svensson.jonas@gmail.com?Subject=Hello%20again", :target => "_top"} | <i class="material-icons tiny test">email</i> svensson.jonas@gmail.com&nbsp;|&nbsp;
+          %a.footer-link{:href => "tel:+46-70-1712933"}
+          %i.material-icons.tiny.footer-link smartphone
+          %span.footer-link+46 70-171 29 33&nbsp;|&nbsp;
+
+  .footer-copyright
+    .container
+      © 2017 Copyright Text

@@ -1,11 +1,23 @@
+- title: Full stack web development
+  school: Craft Academy
+  years: 2017
+  extended: text
+  url: https://www.craftacademy.se/
+
 - title: Mobile Informatics, 40p
   school: IT University Göteborg
-  years: 2003-2004
+  years: 2003 - 2004
+  extended: text
+  url: http://www.ituniv.se/
 
-  - title: Computer science, 120p
-    school: HTU (University of Trollhättan / Uddevalla)
-    years: 2001-2003
+- title: Computer science, 120p
+  school: HTU (University of Trollhättan / Uddevalla)
+  years: 2001 - 2003
+  extended: text
+  url: https://www.hv.se/
 
-  - title: PC / Network technician
-    school: Semcon Education
-    years: 1999
+- title: PC / Network technician
+  school: Semcon Education
+  years: 1999
+  extended: text
+  url: http://www.semcon.com/

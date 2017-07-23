@@ -1,6 +1,6 @@
 - name: BMI calculator
   description: >
-    Project to create a JavaScript based website for the game FizzBuzz.
+    Text <br> text ...
   image: bmi.jpg
   url: https://j0sv.github.io/bmi_challenge/
   tech: devicon-html5-plain-wordmark,devicon-css3-plain-wordmark,devicon-javascript-plain,devicon-jquery-plain-wordmark,devicon-github-plain-wordmark,devicon-atom-original
@@ -12,19 +12,19 @@
   tech: devicon-html5-plain-wordmark,devicon-css3-plain-wordmark,devicon-javascript-plain,devicon-jquery-plain-wordmark,devicon-github-plain-wordmark,devicon-atom-original
 
 - name: Slow Food
-  description: Project to create a JavaScript based website for the game FizzBuzz.
+  description: Text <br> text ...
   image: slow_food.png
   url: https://slowfood-craftacademy-july2017.herokuapp.com/
   tech: devicon-html5-plain-wordmark,devicon-css3-plain-wordmark,devicon-javascript-plain,devicon-jquery-plain-wordmark,devicon-github-plain-wordmark,devicon-atom-original
 
 - name: Library challenge
-  description: Project to create a JavaScript based website for the game FizzBuzz.
+  description: Text <br> text ...
   image: lib.png
   url: https://slowfood-craftacademy-july2017.herokuapp.com/
   tech: devicon-html5-plain-wordmark,devicon-css3-plain-wordmark,devicon-javascript-plain,devicon-jquery-plain-wordmark,devicon-github-plain-wordmark,devicon-atom-original
 
 - name: Portfolio
-  description: Project to create a JavaScript based website for the game FizzBuzz.
+  description: Text <br> text ...
   image: portfolio.png
   url: https://j0sv.herokuapp.com/
   tech: devicon-html5-plain-wordmark,devicon-css3-plain-wordmark,devicon-javascript-plain,devicon-jquery-plain-wordmark,devicon-github-plain-wordmark,devicon-atom-original

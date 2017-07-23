@@ -1,20 +1,30 @@
-%h1 Contact me
+%br
+.row
+  .col.s6
+    .card.hoverable
+      .card-image
+        %img{:src => "images/jonas.jpg"}/
+        %span.card-super-title Jonas Svensson
+        %span.card-sub-title Full stack web developer
+  .col.s6
+    .card.hoverable
+      .card-content
+        %span.card-title Hi, I'm Jonas
+        %p
+          Welcome to my corner of the Internet.
+        %p
+          On these pages you can read about what
+          %a{:href => "/"}projects
+          I have done, what
+          %a{:href => "/"} experience
+          I have and
+          %a{:href => "/"}get in touch
+          with me.
+        %p
+          I am a senior support technician with experience working with business-critical systems in mixed teams with on- and offshore resources.
+        %p
+          I'm currently attending CraftAcademy web developer bootcamp to pivot my worklife and get back in to programming and system development - And my original devotion to the IT business.
 
-.row.white
-  %form.col.s12
-    .row
-      .input-field.col.s12
-        %i.material-icons.prefix account_box
-        %input#full_name.validate{:placeholder => "Name", :type => "text", "data-length" => "255"}
-    .row
-      .input-field.col.s12
-        %i.material-icons.prefix email
-        %input#email.validate{:placeholder => "Email", :type => "email", "data-length" => "255"}
-    .row
-      .col.s12
-        %i.material-icons.prefix edit
-        %textarea#message.validate.materialize-textarea{"data-length" => "1024", :placeholder => "Message"}
-      .col.s12
-        %button.btn.waves-effect.waves-light{:name => "action", :type => "submit"}
-          Send
-          %i.material-icons.right send
+      .card-action
+        %a{:href => "https://github.com/j0sv"} GitHub page
+        %a{:href => "https://www.linkedin.com/in/jonas-svensson-07419b144/"} LinkedIn profile

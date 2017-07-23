@@ -1,22 +1,32 @@
 %h1 Contact me
 
-.row.white
-  %form.col.s12
-    .card
-      .card-content
-        .row
-          .input-field.col.s12
-            %i.material-icons.prefix account_box
-            %input#full_name.validate{:placeholder => "Name", :type => "text", "data-length" => "255"}
-        .row
-          .input-field.col.s12
-            %i.material-icons.prefix email
-            %input#email.validate{:placeholder => "Email", :type => "email", "data-length" => "255"}
-        .row
-          .col.s12
-            %i.material-icons.prefix edit
-            %textarea#message.validate.materialize-textarea{"data-length" => "1024", :placeholder => "Message"}
-          .col.s12
-            %button.btn.waves-effect.waves-light{:name => "action", :type => "submit"}
-              Send
-              %i.material-icons.right send
+
+.row
+  %form{:action => "http://formspree.io/svensson.jonas@gmail.com", :method => "POST"}
+    .col.s12
+      .card.hoverable
+        .card-image
+          %img{:src => "images/bg.png"}/
+          %span.card-title Contact form
+        .card-content
+          .row
+            .input-field.col.s12
+              %i.material-icons.prefix account_box
+              %input#full_name.validate{:placeholder => "Name", :type => "text", "data-length" => "255"}
+          .row
+            .input-field.col.s12
+              %i.material-icons.prefix email
+              %input#email.validate{:placeholder => "Email", :type => "email", "data-length" => "255"}
+          .row
+            %form.col.s12
+              .row
+                .input-field.col.s12
+                  %i.material-icons.prefix mode_edit
+                  %textarea#icon_prefix2.materialize-textarea{"data-length" => "1024", :placeholder => "Message"}
+
+        .card-action
+          .row
+            .col.s12
+              %button.btn.waves-effect.waves-light{:name => "action", :type => "submit"}
+                Send
+                %i.material-icons.right send
