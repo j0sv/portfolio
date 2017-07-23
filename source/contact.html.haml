@@ -7,22 +7,34 @@
       .card.hoverable
         .card-image
           %img{:src => "images/bg.png"}/
-          %span.card-title Contact form
+          %span.card-title{:style => "width:100%; background-color: #ffab00;line-height: 5px;"} Contact information
+        .card-content
+          %a{:href => "mailto:svensson.jonas@gmail.com?Subject=Hello%20again", :target => "_top"} |
+            %i.material-icons email
+            svensson.jonas@gmail.com&nbsp;|&nbsp;
+          %a{:href => "tel:+46-70-1712933"}
+            %i.material-icons smartphone
+            %span+46 70-171 29 33&nbsp;|&nbsp;
+    .col.s12
+      .card.hoverable
+        .card-image
+          %img{:src => "images/bg.png"}/
+          %span.card-title{:style => "width:100%; background-color: #ffab00;line-height: 5px;"} Contact form
         .card-content
           .row
             .input-field.col.s12
               %i.material-icons.prefix account_box
-              %input#full_name.validate{:placeholder => "Name", :type => "text", "data-length" => "255"}
+              %input#full_name.validate{:placeholder => "Name", :type => "text", "data-length" => "255", :name => "name"}
           .row
             .input-field.col.s12
               %i.material-icons.prefix email
-              %input#email.validate{:placeholder => "Email", :type => "email", "data-length" => "255"}
+              %input#email.validate{:placeholder => "Email", :type => "email", :name => "_replyto", "data-length" => "255"}
           .row
             %form.col.s12
               .row
                 .input-field.col.s12
                   %i.material-icons.prefix mode_edit
-                  %textarea#icon_prefix2.materialize-textarea{"data-length" => "1024", :placeholder => "Message"}
+                  %textarea#icon_prefix2.materialize-textarea{"data-length" => "1024", :placeholder => "Message", :name => "text"}
 
         .card-action
           .row
